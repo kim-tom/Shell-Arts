@@ -1,0 +1,22 @@
+C:\dev\opencv-3.2.0\build\install\x64\vc10\lib
+C:\dev\opencv-3.2.0\build\install\x64\vc10\lib\*.lib;
+C:\dev\opencv-3.2.0\build\install\x64\vc10\bin
+C:\dev\opencv-3.2.0\build\install\include
+
+bfig:図
+btbl:表
+lst:リスティング
+ref:参照
+lbl:ラベル
+reference:参考文献
+
+TeXの余計なファイルを削除
+del /s *.aux *.dvi *.log *.out *.synctex.gz *.xbb
+
+フォルダの中にフォルダを作る。cdしとかないと、変なとこにフォルダが出来るから気をつける。
+cd C:\Users\admin\Desktop\test 
+for /f "usebackq delims==" %i IN (`dir /b /ad`) DO mkdir %i\ap2018より #ディレクトリ名にスペースが入っていると死ぬ
+
+ssh -l hideyoshi 127.0.0.1 -p 9997
+
+$ convert in.jpg -level 0%,50%,0.8 -fuzz 50% -monochrome out.jpg
