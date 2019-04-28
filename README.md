@@ -7,4 +7,4 @@ make same name directories in every child directories of the working directory
 ## wma2mp3.sh
 convert all WMA files in working directory into MP3 files
 ## qsub_less.sh
-less wa1.bash.${JOBID} after implementing qsub and getting JOBID
+less wa1.bash.o${JOBID} after implementing qsub and getting JOBID
